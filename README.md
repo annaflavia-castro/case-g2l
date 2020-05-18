@@ -1,9 +1,29 @@
 # case-g2l
 
-#### Case technology - G2L 
+#### Case technology - G2L.
 ---
 
-#### In this case, a construction of API Rest was performed in NodeJS with MongoDB
+#### In this case, a construction of API Rest was performed in NodeJS with MongoDB.
+
+---
+
+**Dependencies**
+---
+- NodeJS
+- NPM or Yarn
+- MongoDB
+- Express
+- Mongoose
+- Nodemoon
+
+
+**Install**
+---
+`https://github.com/annaflavia-castro/case-g2l.git`
+
+`yarn install`
+
+`yarn start`
 
 ---
 * [POST] *Endpoint* for create drivers.
@@ -20,15 +40,6 @@
 * [DELETE] *Endpoint* for delete vehicles. 
 
 ---
-
-**Install**
----
-`https://github.com/annaflavia-castro/case-g2l.git`
-
-`yarn install`
-
-`yarn start`
-
 
 **URL**
 ---
