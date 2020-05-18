@@ -1,7 +1,6 @@
 # case-g2l
 
 #### Case technology - G2L.
----
 
 #### In this case, a construction of API Rest was performed in NodeJS with MongoDB.
 
@@ -201,7 +200,8 @@
 
 **Insomnia**
 ---
-#### A collection de testes realizados no Insomnia estão em um arquivo .json, dentro desse repositório.
+
+#### The collection of tests performed at Insomnia are in a .json file, within this repository.
 ---
 
 **Evidences**
