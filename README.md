@@ -20,6 +20,21 @@
 * [DELETE] *Endpoint* para deletar veículos. 
 
 ---
+#### Case technology - G2L.
+
+#### In this case, a construction of API Rest was performed in NodeJS with MongoDB.
+
+---
+
+**Dependencies**
+---
+- NodeJS
+- NPM or Yarn
+- MongoDB
+- Express
+- Mongoose
+- Nodemoon
+
 
 **Install**
 ---
@@ -29,6 +44,7 @@
 
 `yarn start`
 
+---
 
 **URL**
 ---
@@ -71,7 +87,8 @@
   "vehicles": []
 }
 ```
-`Criando um novo registro de driver. Nesse estado, ele virá com o campo status como true.`
+
+`Create a new driver. This state, the status is true.`
 
 #### /drivers/:id [UPDATE]
 ```
@@ -84,7 +101,8 @@
   "vehicles": []
 }
 ```
-`Atualizando um motorista já existente.`
+
+`Update a driver exist.`
 
 #### /vehicles [POST]
 ```
@@ -94,7 +112,8 @@
   "renavam": "12345678910"
 }
 ```
-`Criando um novo registro de vehicle.`
+
+`Create a new vehicle.`
 
 #### /vehicles/:id [UPDATE]
 ```
@@ -104,13 +123,14 @@
 	"renavam": "123456789"
 }
 ```
-`Atualizando um veículo já existente.`
+
+`Update a vehicle exist.`
 
 ---
 **Response**
 ---
 
-`Criação um novo motorista.`
+`Create a new driver.`
 ```
 {
   "status": true,
@@ -126,7 +146,7 @@
 }
 ```
 
-`Atualização de um motorista.`
+`Update of driver.`
 ```
 {
   "status": false,
@@ -142,7 +162,7 @@
 }
 ```
 
-`Criação de um veículo.`
+`Create a new vehicle.`
 ```
 {
   "_id": "5ec2a681d579a8405c1b9b9d",
@@ -155,7 +175,7 @@
 }
 ```
 
-`Atualização de um veículo.`
+`Update of vehicle.`
 ```
 {
   "_id": "5ec25359f52721129c72098a",
@@ -168,7 +188,7 @@
 }
 ```
 
-`Associação de um motorista á um veículo.`
+`Associated driver with vehicle.`
 ```
 {
   "status": true,
@@ -190,36 +210,37 @@
 
 **Insomnia**
 ---
-#### A collection de testes realizados no Insomnia estão em um arquivo .json, dentro desse repositório.
+
+#### The collection of tests performed at Insomnia are in a .json file, within this repository.
 ---
 
-**Evidências**
+**Evidences**
 ---
 #### Case 1 - Driver created.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/create_drivers.png)
 
 #### Case 2 - Vehicle created.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/create_vehicles.png)
 
 #### Case 3 - Driver updated.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/update_driver.png)
 
 #### Case 4 - Vehicle updated.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/update_vehicle.png)
 
 #### Case 5 - Associated driver with vehicle.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/connect_vehicles.png)
 
 #### Case 6 - Drivers list.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/list_drivers.png)
 
 #### Case 7 - Vehicles list.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/list_vehicles.png)
 
 #### Case 8 - Driver deleted.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/delete_drivers.png)
 
 #### Case 9 - Vehicle deleted.
-![image]()
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/delete_vehicles.png)
 
 ---
