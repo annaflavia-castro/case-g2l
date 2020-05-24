@@ -1,7 +1,7 @@
 const mongoose = require('../../database');
 
 const VehicleSchema = new mongoose.Schema({
-    name_owner: { 
+      name_owner: { 
         type: String,
         required: true
       },
@@ -15,20 +15,20 @@ const VehicleSchema = new mongoose.Schema({
         type: String,
         required: true
       },
-      vehicle: {
-          type: mongoose.Schema.Types.ObjectId,
-          ref: 'Driver',
-          required: true
+      driver: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Driver',
+        require: true
       },
-      proprietor: {
+      user: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User',
         require: true
-    }
-}, { 
+      }
+  }, { 
     timestamps: true 
 });
 
-const Vehicle = mongoose.model('Vehicle', VehicleSchema)
+const Vehicle = mongoose.model('Vehicle', VehicleSchema);
 
-module.exports = Vehicle
+module.exports = Vehicle;

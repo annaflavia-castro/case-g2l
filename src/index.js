@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extends: false }))
+app.use(bodyParser.urlencoded({ extends: false }));
 
-require('./app/controllers/index')(app)
+require('./app/controllers/index')(app);
 
-app.listen(3000);
+app.listen(3331);

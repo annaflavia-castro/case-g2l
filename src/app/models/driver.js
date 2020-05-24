@@ -19,22 +19,23 @@ const DriverSchema = new mongoose.Schema({
         required: true
     },
     status: {
-        type: Boolean, 
+        type: Boolean,
+        required: true,
         default: true
+    },
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true
     },
     vehicles: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Vehicle'
     }],
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'User',
-        require: true
-    }
 }, { 
     timestamps: true 
 });
 
-const Driver = mongoose.model('Driver', DriverSchema)
+const Driver = mongoose.model('Driver', DriverSchema);
 
-module.exports = Driver
+module.exports = Driver;
