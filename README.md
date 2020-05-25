@@ -1,246 +1,59 @@
-# case-g2l
+<h1 align="center">Case G2L</h1>
 
-#### Case technology - G2L 
----
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/annaflavia-castro/case-g2l.svg">
 
-#### In this case, a construction of API Rest was performed in NodeJS with MongoDB
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/annaflavia-castro/case-g2l.svg">
+  
+  <a href="https://github.com/annaflavia-castro/case-g2l/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/annaflavia-castro/case-g2l.svg"></a>
+  
+  <a href="https://github.com/annaflavia-castro/case-g2l/blob/master/LICENSE">
+    <img alt="GitHub license" src="https://img.shields.io/badge/license-MIT-success?style=flat"></a>
+</p>
 
----
-* [POST] *Endpoint* para criar motoristas.
-* [POST] *Endpoint* para criar veículos. 
-* [POST] *Endpoint* para para relacionar motoristas com veículos. 
+<h3 align="center"> In this case, a construction of API Rest was performed in NodeJS with MongoDB </h3>
 
-* [GET] *Endpoint* para listar motoristas. 
-* [GET] *Endpoint* para listar veículos. 
+<h3 align="center"><img src="images/node.png" alt="node" height="18"> Node <img src="images/mongodb.png" alt="mongodb" height="18"> MongoDB </h3>
 
-* [PUT] *Endpoint* para atualizar motoristas. 
-* [PUT] *Endpoint* para atualizar veículos.
-
-* [DELETE] *Endpoint* para deletar motoristas. 
-* [DELETE] *Endpoint* para deletar veículos. 
-
----
-#### Case technology - G2L.
-
-#### In this case, a construction of API Rest was performed in NodeJS with MongoDB.
+<p align="center"> Produtividade e performance de forma enxuta. </p>
 
 ---
 
-**Dependencies**
----
-- NodeJS
-- NPM or Yarn
-- MongoDB
-- Express
-- Mongoose
-- Nodemoon
+## Technologies and Tools
+
+<ul>
+    <li><a href="https://nodejs.org/en/">NodeJS</a></li>
+    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+    <li><a href="https://mongoosejs.com/docs/faq.html">Mongoose</a></li>
+    <li><a href="https://www.npmjs.com/get-npm">Npm</a> or <a href="https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable">Yarn</a></li>
+    <li><a href="https://expressjs.com/pt-br/">Express</a></li>
+    <li><a href="https://www.npmjs.com/package/nodemon">Nodemon</a></li>
+    <li><a href="https://github.com/arb/celebrate">Celebrate</a></li>
+</ul>
+
+## Getting started
+
+Clone this repository `https://github.com/annaflavia-castro/case-g2l.git`
+
+From the project root, enter the case-g2l folder, running `cd case-g2l`
+
+Run this command, for install the dependencies `yarn install` or `npm install`
+
+Run this command to start the application `yarn start` or `npm start`
+
+## Insomnia requisition collection
+
+The collection of test requests for this project, are in the insomnia.test.json file at the root of project.
+
+## Evidences
 
 
-**Install**
----
-`https://github.com/annaflavia-castro/case-g2l.git`
-
-`yarn install`
-
-`yarn start`
-
----
-
-**URL**
----
-```
-{{url}}/drivers [GET]
-{{url}}/drivers [POST]
-{{url}}/drivers/:id [PUT]
-{{url}}/drivers/:id [DELETE]
-```
-```
-{{url}}/drivers/:idVehicle/connect_vehicles [POST]
-```
-```
-{{url}}/vehicles [GET]
-{{url}}/vehicles [POST]
-{{url}}/vehicles/:id [PUT]
-{{url}}/vehicles/:id [DELETE]
-```
----
-
-**Header**
----
-
-- {{url}}/drivers/:idVehicle/connect_vehicles
-
-- "driver": "id"
+## License
+This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
 
 ---
 
-**Request**
----
-#### /drivers [POST]
-```
-{
-  "first_name": "João",
-  "last_name": "Silva",
-  "cpf": "57868005041",
-  "birth_date": "01/01/2000",
-  "status": true,
-  "vehicles": []
-}
-```
+<p align="center">Feito com ❤️ por <strong>Anna Flávia Castro</p>
 
-`Create a new driver. This state, the status is true.`
 
-#### /drivers/:id [UPDATE]
-```
-{   
-  "first_name": "João",
-  "last_name": "Souza",
-  "cpf": "57868005041",
-  "birth_date": "01/01/2000",
-  "status": false,
-  "vehicles": []
-}
-```
-
-`Update a driver exist.`
-
-#### /vehicles [POST]
-```
-{
-  "name_owner": "João da Silva",
-  "plate": "ABCD-1234",
-  "renavam": "12345678910"
-}
-```
-
-`Create a new vehicle.`
-
-#### /vehicles/:id [UPDATE]
-```
-{   
-	"name_owner": "João Silveira",
-	"plate": "ABCD-1234",
-	"renavam": "123456789"
-}
-```
-
-`Update a vehicle exist.`
-
----
-**Response**
----
-
-`Create a new driver.`
-```
-{
-  "status": true,
-  "vehicles": [],
-  "_id": "5ec2a696d579a8405c1b9b9e",
-  "first_name": "Anna Flávia",
-  "last_name": "Silva",
-  "cpf": "57868005041",
-  "birth_date": "01/01/2000",
-  "createdAt": "2020-05-18T15:15:34.677Z",
-  "updatedAt": "2020-05-18T15:34:43.896Z",
-  "__v": 1
-}
-```
-
-`Update of driver.`
-```
-{
-  "status": false,
-  "vehicles": [],
-  "_id": "5ec2a696d579a8405c1b9b9e",
-  "first_name": "Anna Flá",
-  "last_name": "Castro",
-  "cpf": "57868005041",
-  "birth_date": "18/05/1980",
-  "createdAt": "2020-05-18T15:15:34.677Z",
-  "updatedAt": "2020-05-18T19:19:03.673Z",
-  "__v": 1
-}
-```
-
-`Create a new vehicle.`
-```
-{
-  "_id": "5ec2a681d579a8405c1b9b9d",
-  "name_owner": "João da Silva",
-  "plate": "ABC-1234",
-  "renavam": "123456789",
-  "createdAt": "2020-05-18T15:15:13.907Z",
-  "updatedAt": "2020-05-18T15:15:13.907Z",
-  "__v": 0
-}
-```
-
-`Update of vehicle.`
-```
-{
-  "_id": "5ec25359f52721129c72098a",
-  "name_owner": "Anna",
-  "plate": "ABC-1234",
-  "renavam": "123456789",
-  "createdAt": "2020-05-18T09:20:25.777Z",
-  "updatedAt": "2020-05-18T19:23:47.304Z",
-  "__v": 0
-}
-```
-
-`Associated driver with vehicle.`
-```
-{
-  "status": true,
-  "vehicles": [
-    "5ec2a681d579a8405c1b9b9d"
-  ],
-  "_id": "5ec2a696d579a8405c1b9b9e",
-  "first_name": "Anna Flá",
-  "last_name": "Castro",
-  "cpf": "1",
-  "birth_date": "18/05/1980",
-  "createdAt": "2020-05-18T15:15:34.677Z",
-  "updatedAt": "2020-05-18T20:05:49.706Z",
-  "__v": 2
-}
-```
-
----
-
-**Insomnia**
----
-
-#### The collection of tests performed at Insomnia are in a .json file, within this repository.
----
-
-**Evidences**
----
-#### Case 1 - Driver created.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/create_drivers.png)
-
-#### Case 2 - Vehicle created.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/create_vehicles.png)
-
-#### Case 3 - Driver updated.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/update_driver.png)
-
-#### Case 4 - Vehicle updated.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/update_vehicle.png)
-
-#### Case 5 - Associated driver with vehicle.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/connect_vehicles.png)
-
-#### Case 6 - Drivers list.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/list_drivers.png)
-
-#### Case 7 - Vehicles list.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/list_vehicles.png)
-
-#### Case 8 - Driver deleted.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/delete_drivers.png)
-
-#### Case 9 - Vehicle deleted.
-![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/delete_vehicles.png)
-
----
