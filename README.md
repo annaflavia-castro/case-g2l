@@ -12,7 +12,7 @@
     <img alt="GitHub license" src="https://img.shields.io/badge/license-MIT-success?style=flat"></a>
 </p>
 
-<h3 align="center"> In this case, a construction of API Rest was performed in Node with MongoDB </h3>
+<h3 align="center"> In this case, a high performance REST API was created. </h3>
 
 <h3 align="center"><img src="images/node.png" alt="node" height="18"> Node <img src="images/mongodb.png" alt="mongodb" height="18"> MongoDB </h3>
 
