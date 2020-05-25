@@ -29,6 +29,9 @@
     <li><a href="https://www.npmjs.com/get-npm">Npm</a> or <a href="https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable">Yarn</a></li>
     <li><a href="https://expressjs.com/pt-br/">Express</a></li>
     <li><a href="https://www.npmjs.com/package/nodemon">Nodemon</a></li>
+    <li><a href="https://www.npmjs.com/package/crypto-js">Crypto</a></li>
+    <li><a href="https://www.npmjs.com/package/jsonwebtoken">Json Web Token</a></li>
+
 </ul>
 
 ## Getting started
@@ -44,6 +47,26 @@ Run this command to start the application `yarn start` or `npm start`
 ## Insomnia requisition collection
 
 The collection of test requests for this project, are in the insomnia.test.json file at the root of project.
+
+## Evidences
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/register.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/authenticate.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/forgot.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/reset.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/create.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/show.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/list.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/update.png)
+
+![image](https://github.com/annaflavia-castro/case-g2l/blob/master/images/delete.png)
 
 ## License
 This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
