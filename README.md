@@ -16,11 +16,11 @@
 
 <h3 align="center"><img src="images/node.png" alt="node" height="18"> Node.js <img src="images/mongodb.png" alt="mongodb" height="18"> MongoDB </h3>
 
-<p align="center"> Produtividade e performance de forma enxuta, utiizando uma linguagem popular e moderna, o JavaScript. </p>
+<p align="center"> Productivity and performance in a lean way, using a popular and modern language, JavaScript. </p>
 
 ---
 
-## Technologies and Tools
+## Technologies and tools
 
 <ul>
     <li><a href="https://nodejs.org/en/">Node.js</a></li>
@@ -50,6 +50,6 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for details
 
 ---
 
-<p align="center">Feito com ❤️ por <strong>Anna Flávia Castro</p>
+<p align="center">Made with ❤️ by <strong>Anna Flávia Castro</p>
 
 
