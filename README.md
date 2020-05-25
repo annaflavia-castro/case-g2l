@@ -14,7 +14,7 @@
 
 <h3 align="center"> In this case, a high performance REST API was created. </h3>
 
-<h3 align="center"><img src="images/node.png" alt="node" height="18"> Node <img src="images/mongodb.png" alt="mongodb" height="18"> MongoDB </h3>
+<h3 align="center"><img src="images/node.png" alt="node" height="18"> Node.js <img src="images/mongodb.png" alt="mongodb" height="18"> MongoDB </h3>
 
 <p align="center"> Produtividade e performance de forma enxuta, utiizando uma linguagem popular e moderna, o JavaScript. </p>
 
@@ -23,7 +23,7 @@
 ## Technologies and Tools
 
 <ul>
-    <li><a href="https://nodejs.org/en/">NodeJS</a></li>
+    <li><a href="https://nodejs.org/en/">Node.js</a></li>
     <li><a href="https://www.mongodb.com/">MongoDB</a></li>
     <li><a href="https://mongoosejs.com/docs/faq.html">Mongoose</a></li>
     <li><a href="https://www.npmjs.com/get-npm">Npm</a> or <a href="https://classic.yarnpkg.com/pt-BR/docs/install/#debian-stable">Yarn</a></li>
