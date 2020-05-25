@@ -16,7 +16,7 @@
 
 <h3 align="center"><img src="images/node.png" alt="node" height="18"> Node <img src="images/mongodb.png" alt="mongodb" height="18"> MongoDB </h3>
 
-<p align="center"> Produtividade e performance de forma enxuta. </p>
+<p align="center"> Produtividade e performance de forma enxuta, utiizando uma linguagem popular e moderna, o JavaScript. </p>
 
 ---
 
@@ -45,9 +45,6 @@ Run this command to start the application `yarn start` or `npm start`
 ## Insomnia requisition collection
 
 The collection of test requests for this project, are in the insomnia.test.json file at the root of project.
-
-## Evidences
-
 
 ## License
 This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
